@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools_app_Tsukira", "Tools_app_Tsukira.csproj", "{1E9D94C8-F45C-42D4-AB71-1DDDF315DF43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E9D94C8-F45C-42D4-AB71-1DDDF315DF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9D94C8-F45C-42D4-AB71-1DDDF315DF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9D94C8-F45C-42D4-AB71-1DDDF315DF43}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1E9D94C8-F45C-42D4-AB71-1DDDF315DF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9D94C8-F45C-42D4-AB71-1DDDF315DF43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E9D94C8-F45C-42D4-AB71-1DDDF315DF43}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6072BAB4-02D6-4D0C-8559-37DFCD47BF9D}
+	EndGlobalSection
+EndGlobal
