@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tools_app_Tsukira.NfcTools"
+             Title="NfcTools">
+    <ContentPage.Content>
+        <Grid Padding="20" RowSpacing="15" ColumnSpacing="15">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <!-- Header -->
+            <Label Text="Outils NFC" 
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Start"
+                   TextColor="White" />
+
+            <!-- Buttons Container -->
+            <StackLayout Grid.Row="1" Spacing="15" VerticalOptions="CenterAndExpand">
+                <!-- Bouton Lire NFC -->
+                <Button Text="Lire un Tag NFC"
+            FontSize="18"
+            TextColor="White"
+            HeightRequest="60"
+            CornerRadius="10"
+            HorizontalOptions="FillAndExpand"
+            Clicked="OnReadNfcClicked">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                            <GradientStop Color="#FF6F61" Offset="0.0" />
+                            <GradientStop Color="#D742F4" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+
+                <!-- Bouton Écrire NFC -->
+                <Button Text="Écrire sur un Tag NFC"
+            FontSize="18"
+            TextColor="White"
+            HeightRequest="60"
+            CornerRadius="10"
+            HorizontalOptions="FillAndExpand"
+            Clicked="OnWriteNfcClicked">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                            <GradientStop Color="#42A5F5" Offset="0.0" />
+                            <GradientStop Color="#478ED1" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+
+                <!-- Bouton Émuler NFC -->
+                <Button Text="Émuler un Tag NFC"
+            FontSize="18"
+            TextColor="White"
+            HeightRequest="60"
+            CornerRadius="10"
+            HorizontalOptions="FillAndExpand"
+            Clicked="OnEmulateNfcClicked">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                            <GradientStop Color="#66BB6A" Offset="0.0" />
+                            <GradientStop Color="#43A047" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+
+                <!-- Bouton Paramètres NFC -->
+                <Button Text="Paramètres NFC"
+            FontSize="18"
+            TextColor="White"
+            HeightRequest="60"
+            CornerRadius="10"
+            HorizontalOptions="FillAndExpand"
+            Clicked="OnSettingsClicked">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                            <GradientStop Color="#FFA726" Offset="0.0" />
+                            <GradientStop Color="#FF7043" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
